@@ -1,6 +1,6 @@
 package utils;
 
-import java.io.File;
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -14,7 +14,7 @@ public class PropertiesFile {
     public static String getProperty(String property) {
 
         try {
-            fis = new FileInputStream(new File("config.properties"));
+            fis = new FileInputStream("config.properties");
             prop = new Properties();
             prop.load(fis);
         } catch(FileNotFoundException e) {
