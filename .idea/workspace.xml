@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82d5b97a-7510-41ad-86ac-bda7b456b8ab" name="Changes" comment="Adding test context">
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepsdefinition/GetRandomActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/GetRandomActivity.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/schemas/randomActivity.json" afterDir="false" />
+    <list default="true" id="82d5b97a-7510-41ad-86ac-bda7b456b8ab" name="Changes" comment="Pumping Cucumber packages">
+      <change afterPath="$PROJECT_DIR$/src/test/java/constants/GlobalConstants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepsdefinition/GetRandomActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepsdefinition/GetRandomActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/utils/PropertiesFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/PropertiesFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/TestContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/TestContext.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,14 +114,77 @@
       <option name="project" value="LOCAL" />
       <updated>1712305553698</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Editing test runner">
+      <option name="closed" value="true" />
+      <created>1712312282936</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712312282936</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Adding activity endpoint">
+      <option name="closed" value="true" />
+      <created>1712312309233</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712312309233</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Adding dependency injection package">
+      <option name="closed" value="true" />
+      <created>1712312365640</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1712312365640</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Adding test cases">
+      <option name="closed" value="true" />
+      <created>1712312384742</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1712312384742</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Pumping Cucumber packages">
+      <option name="closed" value="true" />
+      <created>1712312501492</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1712312501492</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creating project structure" />
     <MESSAGE value="Adding cucumber test runner" />
     <MESSAGE value="Adding properties files handler" />
     <MESSAGE value="Adding test context" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding test context" />
+    <MESSAGE value="Editing test runner" />
+    <MESSAGE value="Adding activity endpoint" />
+    <MESSAGE value="Adding dependency injection package" />
+    <MESSAGE value="Adding test cases" />
+    <MESSAGE value="Pumping Cucumber packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pumping Cucumber packages" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="CucumberJavaRunConfigurationType">
+        <watch expression="t" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

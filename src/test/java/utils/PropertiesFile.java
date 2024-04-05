@@ -1,6 +1,6 @@
 package utils;
 
-
+import constants.GlobalConstants;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -8,22 +8,23 @@ import java.util.Properties;
 
 public class PropertiesFile {
 
-    private static FileInputStream fis;
+    private static FileInputStream inputStream;
     private static Properties prop = null;
+    private static final String CONFIG_FILE = GlobalConstants.CONFIG_PROPERTIES_FILE;
 
     public static String getProperty(String property) {
 
         try {
-            fis = new FileInputStream("config.properties");
+            inputStream = new FileInputStream(CONFIG_FILE);
             prop = new Properties();
-            prop.load(fis);
+            prop.load(inputStream);
         } catch(FileNotFoundException e) {
             System.out.println("Properties File Not Found");
         } catch(IOException e) {
             System.out.println("IO Exception while loading Properties File");
         } finally {
             try {
-                fis.close();
+                inputStream.close();
             } catch (IOException e) {
                 System.out.println("IO Exception while closing file input stream");
             }
