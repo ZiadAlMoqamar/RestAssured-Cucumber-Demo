@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82d5b97a-7510-41ad-86ac-bda7b456b8ab" name="Changes" comment="Adding properties files handler">
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/TestContext.java" afterDir="false" />
+    <list default="true" id="82d5b97a-7510-41ad-86ac-bda7b456b8ab" name="Changes" comment="Adding test context">
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepsdefinition/GetRandomActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/GetRandomActivity.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/schemas/randomActivity.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/PropertiesFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/PropertiesFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/PropertiesFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/PropertiesFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,14 +38,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;E:/Code/Testing/Rest API with Cucumber/src/main/java/org/example/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cucumber Java.Feature: GetRandomActivity.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/Code/Testing/Rest API with Cucumber/src/test/java/stepsdefinition",
+    "onboarding.tips.debug.path": "E:/Code/Testing/Rest API with Cucumber/src/main/java/org/example/Main.java"
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Feature: GetRandomActivity" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/GetRandomActivity.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Rest-API-with-Cucumber" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Feature: GetRandomActivity" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="MakeProject" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.Feature: GetRandomActivity" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -75,13 +108,22 @@
       <option name="project" value="LOCAL" />
       <updated>1712304594911</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adding test context">
+      <option name="closed" value="true" />
+      <created>1712305553698</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712305553698</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creating project structure" />
     <MESSAGE value="Adding cucumber test runner" />
     <MESSAGE value="Adding properties files handler" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding properties files handler" />
+    <MESSAGE value="Adding test context" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding test context" />
   </component>
 </project>

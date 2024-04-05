@@ -1,0 +1,62 @@
+{
+  "definitions": {},
+  "title": "Root",
+  "type": "object",
+  "required": [
+    "activity",
+    "type",
+    "participants",
+    "price",
+    "link",
+    "key",
+    "accessibility"
+  ],
+  "properties": {
+    "activity": {
+      "$id": "#root/activity",
+      "title": "Activity",
+      "type": "string",
+      "default": "",
+      "pattern": "^.*$"
+    },
+    "type": {
+      "$id": "#root/type",
+      "title": "Type",
+      "type": "string",
+      "default": "",
+      "pattern": "^.*$"
+    },
+    "participants": {
+      "$id": "#root/participants",
+      "title": "Participants",
+      "type": "integer",
+      "default": 0
+    },
+    "price": {
+      "$id": "#root/price",
+      "title": "Price",
+      "type": "number",
+      "default": 0.0
+    },
+    "link": {
+      "$id": "#root/link",
+      "title": "Link",
+      "type": "string",
+      "default": "",
+      "pattern": "^.*$"
+    },
+    "key": {
+      "$id": "#root/key",
+      "title": "Key",
+      "type": "string",
+      "default": "",
+      "pattern": "^.*$"
+    },
+    "accessibility": {
+      "$id": "#root/accessibility",
+      "title": "Accessibility",
+      "type": "number",
+      "default": 0.0
+    }
+  }
+}
