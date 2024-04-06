@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82d5b97a-7510-41ad-86ac-bda7b456b8ab" name="Changes" comment="Pumping Cucumber packages">
-      <change afterPath="$PROJECT_DIR$/src/test/java/constants/GlobalConstants.java" afterDir="false" />
+    <list default="true" id="82d5b97a-7510-41ad-86ac-bda7b456b8ab" name="Changes" comment="ignoring workspace.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepsdefinition/GetRandomActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepsdefinition/GetRandomActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/PropertiesFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/PropertiesFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/TestContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/TestContext.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +22,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ZiadAlMoqamar"
+  }
+}]]></component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="98db1ffc-42c1-4f12-9110-e0acc1120555" />
+  </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ZiadAlMoqamar/RestAssured-Cucumber-Demo.git",
+    "accountId": "98db1ffc-42c1-4f12-9110-e0acc1120555"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -43,7 +53,8 @@
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "E:/Code/Testing/Rest API with Cucumber/src/test/java/stepsdefinition",
-    "onboarding.tips.debug.path": "E:/Code/Testing/Rest API with Cucumber/src/main/java/org/example/Main.java"
+    "onboarding.tips.debug.path": "E:/Code/Testing/Rest API with Cucumber/src/main/java/org/example/Main.java",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RunManager">
@@ -154,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712312501492</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="ignoring workspace.xml">
+      <option name="closed" value="true" />
+      <created>1712320247227</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1712320247227</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,7 +197,8 @@
     <MESSAGE value="Adding dependency injection package" />
     <MESSAGE value="Adding test cases" />
     <MESSAGE value="Pumping Cucumber packages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pumping Cucumber packages" />
+    <MESSAGE value="ignoring workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="ignoring workspace.xml" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
