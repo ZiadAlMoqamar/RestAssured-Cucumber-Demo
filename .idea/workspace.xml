@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82d5b97a-7510-41ad-86ac-bda7b456b8ab" name="Changes" comment="Fixing target build">
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepsdefinition/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/customfilters/ThreadSafeRequestLoggingFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/customfilters/ThreadSafeResponseLoggingFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ViewRandomActivityDetails.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/junit-platform.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/logback.xml" afterDir="false" />
+    <list default="true" id="82d5b97a-7510-41ad-86ac-bda7b456b8ab" name="Changes" comment="Upgrading to Junit 5 and supporting parallel execution and logging">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepsdefinition/GetRandomActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepsdefinition/GetRandomActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/TestContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/TestContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/GetRandomActivity.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/GetRandomActivity.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712435479252</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Upgrading to Junit 5 and supporting parallel execution and logging">
+      <option name="closed" value="true" />
+      <created>1714215968495</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1714215968495</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -271,7 +268,8 @@
     <MESSAGE value="ignoring workspace.xml" />
     <MESSAGE value="Adding license" />
     <MESSAGE value="Fixing target build" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing target build" />
+    <MESSAGE value="Upgrading to Junit 5 and supporting parallel execution and logging" />
+    <option name="LAST_COMMIT_MESSAGE" value="Upgrading to Junit 5 and supporting parallel execution and logging" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
